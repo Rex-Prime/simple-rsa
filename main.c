@@ -1,6 +1,6 @@
-#include "generatekey.h"
-#include "encrypt.h"
-#include "decrypt.h"
+#include "headers/decrypt.h"
+#include "headers/encrypt.h"
+#include "headers/generatekey.h"
 
 #include <stdio.h>
 
@@ -23,5 +23,4 @@ int main() {
 
   int D = decrypt(C, d, n);
   printf("Decrypted Message: %d\n", D);
-
 }
