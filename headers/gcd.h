@@ -1,6 +1,6 @@
-int gcd(int a, int b) {
-  if (a == 0) {
-    return b;
-  }
-  return gcd(b % a, a);
-}
+#ifndef GCD_H
+#define GCD_H
+
+int gcd(int a, int b);
+
+#endif

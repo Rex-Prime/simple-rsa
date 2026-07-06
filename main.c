@@ -1,6 +1,10 @@
-#include "headers/decrypt.h"
-#include "headers/encrypt.h"
-#include "headers/generatekey.h"
+#include "implementations/gcd.c"
+#include "implementations/modinverse.c"
+#include "implementations/power.c"
+
+#include "implementations/decrypt.c"
+#include "implementations/encrypt.c"
+#include "implementations/generatekey.c"
 
 #include <stdio.h>
 
